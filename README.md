@@ -3,8 +3,14 @@
 
 <p>Kubernetes fonctionne sur la base d'un état défini et d'un état réel. Les objets Kubernetes représentent l'état d'un cluster. Ils indiquent à Kubernetes à quoi vous voulez que la charge de travail ressemble. Une fois qu'un objet a été créé et défini, Kubernetes veille à ce qu'il soit toujours présent.</p>
 <h2>BASH</h2>
+
+
 > source <(kubectl completion bash) # setup autocomplete in bash into the current shell, bash-completion package should be installed first. <br/>
+
+
 > echo "source <(kubectl completion bash)" >> ~/.bashrc # add autocomplete permanently to your bash shell. <br/>
+
+
 <h2>Kubectl context and configuration</h2>
 
 <code>
